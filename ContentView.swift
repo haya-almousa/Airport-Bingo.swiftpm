@@ -103,6 +103,7 @@ struct ContentView: View {
         }
         .environmentObject(vm)
         .appBackground()
+        .preferredColorScheme(.light)
     }
 }
 
@@ -115,7 +116,7 @@ struct IntroScreen: View {
         VStack(spacing: 18) {
             Spacer()
 
-            Text("Junior Traveler")
+            Text("Little Explorer")
                 .font(.largeTitle).bold()
 
             Text("Today you’re an Airport Explorer.\nLet’s make waiting time easier and calmer.")
