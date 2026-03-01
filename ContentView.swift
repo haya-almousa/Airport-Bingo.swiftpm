@@ -581,7 +581,7 @@ struct SplashVideoView: View {
                 Spacer(minLength: 40)
 
                 VStack(spacing: 10) {
-                    Text("Junior Traveler")
+                    Text("Little Explorer")
                         .font(.largeTitle).bold()
                         .multilineTextAlignment(.center)
 
