@@ -8,13 +8,13 @@ import PackageDescription
 import AppleProductTypes
 
 let package = Package(
-    name: "Airport Bingo",
+    name: "Little Explorer",
     platforms: [
         .iOS("16.0")
     ],
     products: [
         .iOSApplication(
-            name: "Airport Bingo",
+            name: "Little Explorer",
             targets: ["AppModule"],
             bundleIdentifier: "haya.Airport-Bingo",
             teamIdentifier: "UYGM6CAC3M",
