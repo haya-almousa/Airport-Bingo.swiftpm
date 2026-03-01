@@ -10,7 +10,7 @@ private struct PrimaryButtonStyle: ViewModifier {
         content
             .font(.headline)
             .frame(maxWidth: .infinity)
-            .frame(height: 56)                 // ✅ ثابت
+            .frame(height: 56)                 //  ثابت
             .contentShape(Rectangle())
             .foregroundStyle(Color.black)
             .background(background)
@@ -31,7 +31,7 @@ private struct SecondaryButtonStyle: ViewModifier {
         content
             .font(.headline)
             .frame(maxWidth: .infinity)
-            .frame(height: 50)                 // ✅ ثابت للثانوي
+            .frame(height: 50)                 //  ثابت للثانوي
             .contentShape(Rectangle())
             .foregroundStyle(Color.black)
             .background(background)
